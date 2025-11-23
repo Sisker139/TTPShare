@@ -1,0 +1,201 @@
+/* Tempi-inspired styles for the app */
+.app-tempi-bg {
+	background: #eaf0ff;
+	min-height: 100vh;
+	width: 100%;
+	font-family: 'Inter', 'Roboto', Arial, sans-serif;
+}
+
+.tempi-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 24px 48px 0 48px;
+	background: transparent;
+}
+.tempi-logo {
+	font-weight: bold;
+	font-size: 1.5rem;
+	color: #213547;
+	margin-right: 16px;
+}
+.tempi-title {
+	font-size: 1.2rem;
+	color: #646cff;
+}
+.tempi-header-right button {
+	margin-left: 12px;
+}
+.tempi-wallet-btn, .tempi-connect-btn {
+	background: #fff;
+	color: #646cff;
+	border: 2px solid #646cff;
+	border-radius: 24px;
+	font-weight: 500;
+	padding: 8px 20px;
+	box-shadow: 0 2px 8px rgba(100, 108, 255, 0.08);
+}
+.tempi-wallet-btn {
+	cursor: default;
+}
+.tempi-connect-btn:hover {
+	background: #646cff;
+	color: #fff;
+}
+
+.tempi-hero {
+	text-align: center;
+	padding: 48px 0 32px 0;
+}
+.tempi-hero-title {
+	font-size: 2rem;
+	color: #213547;
+	margin-bottom: 0.5rem;
+}
+.tempi-hero-main {
+	font-size: 3rem;
+	font-weight: bold;
+	color: #213547;
+	margin-bottom: 0.5rem;
+}
+.tempi-highlight-yellow {
+	background: #ffd600;
+	color: #213547;
+	padding: 0 8px;
+	border-radius: 6px;
+}
+.tempi-hero-desc {
+	color: #646cff;
+	font-size: 1.1rem;
+	margin-bottom: 1.5rem;
+}
+.tempi-cta-btn {
+	background: #a259ff;
+	color: #fff;
+	font-weight: 600;
+	font-size: 1.1rem;
+	border: none;
+	border-radius: 32px;
+	padding: 14px 36px;
+	box-shadow: 0 2px 12px rgba(162, 89, 255, 0.12);
+	transition: background 0.2s;
+}
+.tempi-cta-btn:hover {
+	background: #646cff;
+}
+
+.tempi-section-title {
+	font-size: 1.5rem;
+	color: #213547;
+	margin-bottom: 1rem;
+	font-weight: 600;
+}
+.tempi-upload-section {
+	background: #fff;
+	border-radius: 18px;
+	box-shadow: 0 2px 16px rgba(100, 108, 255, 0.08);
+	max-width: 480px;
+	margin: 0 auto 32px auto;
+	padding: 32px 24px;
+}
+.tempi-form-group {
+	margin-bottom: 16px;
+	text-align: left;
+}
+.tempi-input {
+	width: 100%;
+	padding: 8px 12px;
+	border-radius: 8px;
+	border: 1px solid #d1d5db;
+	font-size: 1rem;
+	margin-top: 4px;
+}
+.tempi-input-short {
+	max-width: 200px;
+}
+.tempi-primary-btn {
+	background: #a259ff;
+	color: #fff;
+	font-weight: 600;
+	border: none;
+	border-radius: 24px;
+	padding: 10px 28px;
+	margin-top: 8px;
+	box-shadow: 0 2px 8px rgba(162, 89, 255, 0.10);
+	transition: background 0.2s;
+}
+.tempi-primary-btn:hover {
+	background: #646cff;
+}
+
+.tempi-documents {
+	max-width: 900px;
+	margin: 0 auto 48px auto;
+	padding: 24px 0;
+}
+.tempi-docs-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+	gap: 24px;
+}
+.tempi-doc-card {
+	background: #fff;
+	border-radius: 16px;
+	box-shadow: 0 2px 12px rgba(100, 108, 255, 0.10);
+	padding: 24px 20px;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+.tempi-doc-title {
+	font-size: 1.1rem;
+	font-weight: 600;
+	color: #213547;
+}
+.tempi-muted {
+	color: #888;
+}
+.tempi-small {
+	font-size: 0.95em;
+}
+.tempi-actions {
+	display: flex;
+	gap: 10px;
+	margin-top: 8px;
+}
+.tempi-outline-btn {
+	background: #fff;
+	color: #646cff;
+	border: 2px solid #646cff;
+	border-radius: 18px;
+	padding: 6px 18px;
+	font-weight: 500;
+}
+.tempi-outline-btn:hover {
+	background: #eaf0ff;
+}
+.tempi-success-btn {
+	background: #00c853;
+	color: #fff;
+	border: none;
+	border-radius: 18px;
+	padding: 6px 18px;
+	font-weight: 500;
+}
+.tempi-warning-btn {
+	background: #ffd600;
+	color: #213547;
+	border: none;
+	border-radius: 18px;
+	padding: 6px 18px;
+	font-weight: 500;
+}
+.tempi-purple-btn {
+	background: #a259ff;
+	color: #fff;
+	border: none;
+	border-radius: 18px;
+	padding: 6px 18px;
+	font-weight: 500;
+}
